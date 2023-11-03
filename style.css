@@ -1,5 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    background-color:blue
+    background-color:rgb(12, 12, 13);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
