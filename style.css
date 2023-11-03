@@ -1,11 +1,25 @@
 *{
     padding: 0;
     margin: 0;
-    background-color:rgb(12, 12, 13);
+    box-sizing: border-box;
+    font-family: 'montserrat';
 }
 
-.img{
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    height: 135px;
+    width: 100%;
+    background-color: red;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 0 150px;
+    gap: 45px;
+    justify-content: flex-start;
+}
+.nav img{
+    height: 75px;
 }
