@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'montserrat';
-    color: rgb(248, 69, 9);
+    color: rgb(14, 4, 1);
 }
 
 html,body{
@@ -11,20 +11,41 @@ html,body{
     width: 100%;
 }
 
-.nav{
-    height: 135px;
+#nav{
+    height: 98px;
     width: 100%;
-    background-color: rgb(245, 238, 238);
+    /* background-color: rgb(8, 0, 0); */
     display: flex;
     align-items: center;
     padding: 0 150px;
-    gap: 50px;
+    gap: 90px;
+    position: fixed;
     justify-content: flex-start;
+    z-index: 99;
 }
-.nav img{
+#nav img{
     height: 75px;
 }
 
-.nav h4{
+#nav h4{
     text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    color: orange;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#main{
+    position: relative;
+    background-color: rgba(0,0, 0, 0);
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
 }
